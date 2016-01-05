@@ -1,3 +1,12 @@
-*.xcuserstate
-project.xcworkspace/
+build/
 xcuserdata/
+project.xcworkspace/
+.DS_Store
+DerivedData/
+.idea
+cbt_release/*
+release_cbt/*
+.tags
+tags
+.cscope
+cscope.*
