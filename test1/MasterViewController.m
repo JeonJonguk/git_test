@@ -90,4 +90,10 @@
     }
 }
 
+#pragma mark - Github test 
+
+- (void)testFunction1 {
+    NSLog(@"Git hub test!");
+}
+
 @end
