@@ -95,7 +95,7 @@
 - (void)testFunction1 {
     NSLog(@"Git hub test!");
     NSLog(@"Git hub test2!");
-    NSLog(@"MASTER!!!!!!!!!");
+    NSLog(@"MASTER!!!!!!!!!"); //modified!!!!!!!!!!!!
     NSLog(@"DVELOP!!");
 }
 
