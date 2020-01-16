@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9440CA9723D04890008AE191 /* 두번쨰.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9440CA9423D0488F008AE191 /* 두번쨰.txt */; };
+		9440CA9823D04890008AE191 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9440CA9523D04890008AE191 /* README.md */; };
+		9440CA9923D04890008AE191 /* test.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9440CA9623D04890008AE191 /* test.rtf */; };
 		C243CDBE1C0DA67D008126DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C243CDBD1C0DA67D008126DD /* main.m */; };
 		C243CDC11C0DA67D008126DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C243CDC01C0DA67D008126DD /* AppDelegate.m */; };
 		C243CDC41C0DA67D008126DD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C243CDC31C0DA67D008126DD /* MasterViewController.m */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9440CA9423D0488F008AE191 /* 두번쨰.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "두번쨰.txt"; sourceTree = SOURCE_ROOT; };
+		9440CA9523D04890008AE191 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		9440CA9623D04890008AE191 /* test.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = test.rtf; sourceTree = SOURCE_ROOT; };
 		C243CDB91C0DA67D008126DD /* test1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C243CDBD1C0DA67D008126DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C243CDBF1C0DA67D008126DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -114,6 +120,9 @@
 				C243CDCB1C0DA67D008126DD /* Assets.xcassets */,
 				C243CDCD1C0DA67D008126DD /* LaunchScreen.storyboard */,
 				C243CDD01C0DA67D008126DD /* Info.plist */,
+				9440CA9423D0488F008AE191 /* 두번쨰.txt */,
+				9440CA9523D04890008AE191 /* README.md */,
+				9440CA9623D04890008AE191 /* test.rtf */,
 				C243CDBC1C0DA67D008126DD /* Supporting Files */,
 			);
 			path = test1;
@@ -228,6 +237,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -250,6 +260,9 @@
 			files = (
 				C243CDCF1C0DA67D008126DD /* LaunchScreen.storyboard in Resources */,
 				C243CDCC1C0DA67D008126DD /* Assets.xcassets in Resources */,
+				9440CA9823D04890008AE191 /* README.md in Resources */,
+				9440CA9723D04890008AE191 /* 두번쨰.txt in Resources */,
+				9440CA9923D04890008AE191 /* test.rtf in Resources */,
 				C243CDCA1C0DA67D008126DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,6 +517,7 @@
 				C243CDEB1C0DA67D008126DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C243CDEC1C0DA67D008126DD /* Build configuration list for PBXNativeTarget "test1Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				C243CDEE1C0DA67D008126DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C243CDEF1C0DA67D008126DD /* Build configuration list for PBXNativeTarget "test1UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +535,7 @@
 				C243CDF11C0DA67D008126DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
