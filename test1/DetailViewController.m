@@ -31,6 +31,7 @@
         self.detailDescriptionLabel.text = [self.detailItem description];
     }
     NSLog(@"add");
+    NSLog(@"add2");
     
 }
 
